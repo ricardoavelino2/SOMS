@@ -8,7 +8,7 @@ class Area(Polygon):
         self.name = name
         self._points = None
 
-        self.points = points
+        self.points = points  # points
 
     @property
     def points(self):
